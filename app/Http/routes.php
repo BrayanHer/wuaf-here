@@ -12,5 +12,11 @@
 */
 
 Route::get('/index', function () {
-    return view('Encabezado');
+    return view('adopcion.Contenido');
+});
+Route::get('/proceso-de-adopcion', function () {
+    return view('adopcion.Proceso_adopcion');
+});
+Route::get('/solicitud-de-adopcion', function () {
+    return view('adopcion.Solicitud_adopcion');
 });
